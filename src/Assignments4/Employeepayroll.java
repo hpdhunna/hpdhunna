@@ -35,10 +35,10 @@ public class Employeepayroll {
 
     public static void main(String[] args) {
         Employeepayroll emp1 = new Employeepayroll(236,"john",6000,"developer");
-        emp1.Displaydetails();
-        emp1.calculateDeductions();
-        emp1.calculateGrosssalary();
-        emp1.calculatenetsalary();
+//        emp1.Displaydetails();
+        System.out.println(emp1.calculateDeductions());
+        System.out.println(emp1.calculateGrosssalary());
+        System.out.println(emp1.calculatenetsalary());
 
     }
 }
